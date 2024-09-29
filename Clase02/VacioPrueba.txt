@@ -4,3 +4,10 @@ function rere(){
 //nada
 
 }
+
+
+function ggggg(){
+
+//nada
+
+}
