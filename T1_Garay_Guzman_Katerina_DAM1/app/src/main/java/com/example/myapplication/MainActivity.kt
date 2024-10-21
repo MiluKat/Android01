@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnCalcular.setOnClickListener{
 
+
             if(binding.rbDuo.isChecked){
                 servicioSeleccionado = "Duo Telefono Internet"
                 costoServicio = 109.0
