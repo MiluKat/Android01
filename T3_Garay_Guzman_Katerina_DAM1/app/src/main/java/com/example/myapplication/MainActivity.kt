@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
             binding.btnLogin.setOnClickListener {
                 if (binding.etEmail.text.toString()
-                        .trim() == "kate" && binding.etPassword.text.toString().trim() == "1234"
+                        .trim() == "katerina" && binding.etPassword.text.toString().trim() == "1234"
                 ) {
                     UtilsSharedPreferences.createSesion(this)
                     startActivity(Intent(this, UserRoom::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
